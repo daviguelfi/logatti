@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88bb05dd-e6ad-41d3-913d-b3e4c2ce53e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ex2.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ex3.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ex4.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1Z0LCs7oCT11QsrXLF2Ypx3AtRd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.ex5">
+    <configuration name="ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aula2-11-03-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aula2-11-03-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aula2-11-03-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aula2-11-03-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ex5" />
+        <item itemvalue="Python.ex4" />
+        <item itemvalue="Python.ex3" />
+        <item itemvalue="Python.ex2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88bb05dd-e6ad-41d3-913d-b3e4c2ce53e2" name="Default Changelist" comment="" />
+      <created>1583970940162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583970940162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="44" key="#Inspections" timestamp="1583971551061">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="240" y="44" key="#Inspections/0.23.1280.712@0.23.1280.712" timestamp="1583971551061" />
+    <state width="1259" height="176" key="GridCell.Tab.0.bottom" timestamp="1583972555502">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="176" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1583972555502" />
+    <state width="1259" height="176" key="GridCell.Tab.0.center" timestamp="1583972555501">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="176" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1583972555501" />
+    <state width="1259" height="176" key="GridCell.Tab.0.left" timestamp="1583972555501">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="176" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1583972555501" />
+    <state width="1259" height="176" key="GridCell.Tab.0.right" timestamp="1583972555502">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="176" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1583972555502" />
+    <state width="1259" height="219" key="GridCell.Tab.1.bottom" timestamp="1583972163374">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="219" key="GridCell.Tab.1.bottom/0.23.1280.712@0.23.1280.712" timestamp="1583972163374" />
+    <state width="1259" height="219" key="GridCell.Tab.1.center" timestamp="1583972163373">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="219" key="GridCell.Tab.1.center/0.23.1280.712@0.23.1280.712" timestamp="1583972163373" />
+    <state width="1259" height="219" key="GridCell.Tab.1.left" timestamp="1583972163372">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="219" key="GridCell.Tab.1.left/0.23.1280.712@0.23.1280.712" timestamp="1583972163372" />
+    <state width="1259" height="219" key="GridCell.Tab.1.right" timestamp="1583972163373">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1259" height="219" key="GridCell.Tab.1.right/0.23.1280.712@0.23.1280.712" timestamp="1583972163373" />
+  </component>
+</project>
