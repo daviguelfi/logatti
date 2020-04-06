@@ -20,16 +20,19 @@ while True:
     if option == "1":
         movie = input('Informe o nome de um filme que gostaria de cadastrar:\n')
         list_movies.append({'id': str(len(list_movies)+1), 'nome': movie, 'nota': None})
+
     if option == "2":
         for m in list_movies:
             print(m)
-        remove_movie = input('Informe o nome de um filme que gostaria de remover:\n')
-        list_movies.remove(remove_movie)
+
     if option == "3":
         remove_movie = input('Informe o nome de um filme que gostaria de remover:\n')
+        # newRemove = list_movies.filter(item => item.nome !== nome)
+        # print(list_movies.filter(item => item.nome != nome))
         print(remove_movie)
-        str(list_movies.nome)
-        str(list_movies.nome).remove(str(remove_movie))
+        print(list_movies.nome)
+        list_movies.nome.remove(str(remove_movie))
+
     if option == "4":
         print('Por favor, escolha o id do filme que gostaria de avaliar: ')
         for m in list_movies:
@@ -40,13 +43,13 @@ while True:
         next(m for m in list_movies if m["id"] == list_movie).nota = list_movie
         list_rating.append(rating)
         print(list_rating)
+
     if option == "5":
         for m in list_rating:
             print(m)
+
     if option == "0":
         break
-
-
 
 
 insert_movie.close()
