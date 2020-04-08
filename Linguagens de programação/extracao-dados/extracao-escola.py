@@ -39,11 +39,14 @@ for l in lines:
         print('achouo estado')
 
 
-# print("SchoolName, City and StateCode equal '44106'")
-# for l in lines:
-#     coluna = l.split(',')
-#     if 'CLEVELAND' in coluna:
-#         print('achou', ('CLEVELAND' in coluna))
+print("SchoolName, City and StateCode equal '44106'")
+for l in lines:
+    coluna = l.split(',')
+    print("SchoolName: " + coluna[2])
+    print("City: " + coluna[4])
+    print("StateCode: " + coluna[5])
+    if '44106' in coluna[6]:
+        print('find zipcode')
 
 # print("Count schools by city")
 
