@@ -1,7 +1,10 @@
 import csv
+import string
+import random
 from collections import defaultdict
 
-arquivo = open('dados.csv',encoding = "ISO-8859-1")
+#exemplo mais fácil
+arquivo = open('dados.csv', encoding = "ISO-8859-1")
 
 lines = arquivo.readlines()
 
@@ -13,11 +16,7 @@ for l in lines:
     print("*******************************")
 
 
-import csv
-import json
-import string
-import random
-from collections import defaultdict
+#exemplo mais genérico
 columns = defaultdict(list)
 rows = []
 def id_generator(size=8, chars=string.ascii_uppercase + string.digits):
@@ -27,5 +26,5 @@ with open('dados.csv', encoding = "ISO-8859-1") as f:
     for row in reader:
       for (k,v) in row.items():
         rows.append({"codigo": v.split(';')[0], "nome": v.split(';')[1], "telefone": v.split(';')[2]})
-print(rows)
+    print(rows)
 
