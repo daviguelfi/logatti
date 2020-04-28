@@ -64,26 +64,43 @@ while True:
                 print(str(y) + ' - ' + note)
                 y += 1
 
-    if option == "6":
+    elif option == "6":
         if not list_movies or not ratings:
-            print("Não há dados suficentes para assosciar")
+            print("Não há dados suficientes para serem associados!")
         else:
-            print("Filmes cadastrados")
+            q = 1
             for f in list_movies:
                 print("%d - %s" % (q, f))
                 q += 1
-            option_movie = int(input("Informe o número do filme: ")) - 1
-            connect_movies.append(list_movies[option_movie])
+            opfilme = int(input("Informe o número do filme: ")) - 1
+            connect_movies.append(list_movies[opfilme])
 
             k = 1
-            print("Avaliações cadastradas")
             for a in ratings:
                 print("%d - %s" % (k, a))
                 k += 1
-            option_rating = int(input("Informe o número da avaliação: ")) - 1
-            connect_movies.append(ratings[option_rating])
-
-        print("O filme: %s teve a avaliação: %s!" % (list_movies[option_movie], ratings[option_rating]))
+            opavaliacao = int(input("Informe o numero da avaliação: ")) - 1
+            connect_movies.append(ratings[opavaliacao])
+            print("O filme: %s teve a avaliação: %s!" % (list_movies[opfilme], ratings[opavaliacao]))
+    # if option == "6":
+    #     if not list_movies or not ratings:
+    #         print("Não há dados suficentes para assosciar")
+    #     else:
+    #         q = 1
+    #         for f in list_movies:
+    #             print("%d - %s" % (q, f))
+    #             q += 1
+    #         option_movie = int(input("Informe o número do filme: ")) - 1
+    #         connect_movies.append(list_movies[option_movie])
+    #
+    #         k = 1
+    #         print("Avaliações cadastradas")
+    #         for a in ratings:
+    #             print("%d - %s" % (k, a))
+    #             k += 1
+    #         option_rating = int(input("Informe o número da avaliação: ")) - 1
+    #         connect_movies.append(ratings[option_rating])
+    #     print("O filme: %s teve a avaliação: %s!" % (list_movies[option_movie], ratings[option_rating]))
 
     if option == "7":
         if not connect_movies:
@@ -93,15 +110,14 @@ while True:
             i = 0
             for j in connect_movies:
                 if i % 2 == 0:
-                    arq.write(("%s -" % (connect_movies[i])))
+                    arq.write("%s -" % (connect_movies[i]))
                 else:
-                    arq.write(("%s\n" % (connect_movies[i])))
+                    arq.write("%s\n" % (connect_movies[i]))
             i += 1
             print("Relatório gerado com sucesso")
             arq.close()
+        arq.close()
 
     if option == "0":
         break
 
-
-# insert_movie.close()
