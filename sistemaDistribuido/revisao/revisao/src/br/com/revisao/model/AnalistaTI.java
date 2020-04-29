@@ -21,7 +21,7 @@ public class AnalistaTI extends Funcionario {
 
 	@Override
 	public int getQtdCaracteresNome() {
-		return 0;
+		return this.getNome().length();
 	}
 
 }

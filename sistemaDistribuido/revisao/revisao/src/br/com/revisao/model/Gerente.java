@@ -14,7 +14,6 @@ public class Gerente extends Funcionario {
 
 	@Override
 	public int getQtdCaracteresNome() {
-		
 		return this.getNome().length();
 	}
 }
