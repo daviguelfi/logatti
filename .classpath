@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="sistemaDistribuido/aula3Util/Aula3Server/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/aula3Util/Aula3Util/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/escola/Aula2RMI/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/escola/Aula2RMIComum/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/escola/Aula2RMIServidor/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/projSQLite/projSQLite/src/main/java"/>
+	<classpathentry kind="src" path="sistemaDistribuido/revisao/revisao/src"/>
+	<classpathentry kind="src" path="sistemaDistribuido/src"/>
+	<classpathentry kind="output" path="sistemaDistribuido/bin"/>
+</classpath>
