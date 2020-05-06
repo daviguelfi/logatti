@@ -9,3 +9,4 @@ mydict = { "nome" : "davi", "email": "davi@teste.com", "telefone" : "16 8888 777
 x = mycol.insert_one(mydict)
 
 print(x.inserted_id)
+
