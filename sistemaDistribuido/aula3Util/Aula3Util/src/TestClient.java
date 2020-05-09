@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 public class TestClient {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 
 		String nome = "";
 		String msgp = "";
