@@ -8,6 +8,7 @@ public class ChatServer {
 	public ChatServer() throws RemoteException {
 		
 		try {
+			System.out.println("começou");
 			LocateRegistry.createRegistry(8282);
 			Naming.rebind("rmi://localhost:8282/chat", new ChatAula());
 		} catch (MalformedURLException e) {
