@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ChatClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ChatServer"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

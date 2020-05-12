@@ -2,49 +2,60 @@ import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.swing.JOptionPane;
 
+import model.PedidoModel;
+import model.ProdutoModel;
+
+import java.util.Scanner;
+
 public class ChatClient {
 	
+	private Pedido pedido;
+	private Produto produto;
+	
 public static void main(String [] Args) {
-		
-		String nome = "";
+		Scanner sc = new Scanner(System.in);
 		String msgp = "";
-		String pedido = "";
-		String nota_fiscal="";
-		String status="";
+		pedido = new Pedido();
+		produto = new Produto();
+		Date date = new Date();
+		ProdutoModel produto = new ProdutoModel(1, "sapato", "calçado");
+		PedidoModel pedido = new PedidoModel(1, "compra de sapato", date, "finalizado", produto);
+		ArrayList<Pedido> dados = new ArrayList();
 		
-		nome = JOptionPane.showInputDialog("Bem vindo ao Chat é um prazer ter você, qual é o seu nome? ");
-		
-		
-		try {	
-				while (msgp != "0") 
-					{							
-					
-					msgp = JOptionPane.showInputDialog("Chat - " + nome + " Entre com a mensagem. (Entre com 0 para sair)");
-					pedido = JOptionPane.showInputDialog("Chat - " + pedido +"Digite o numero do seu pedido:");
-					nota_fiscal= JOptionPane.showInputDialog("Chat - " + nota_fiscal + " Digite o numero da sua nota fiscal ");
-					
-					//Retornar a mensagem de STATUS DESTE PEDIDO.	
-					//status= JOptionPane.showInputDialog("Chat - " + status + " O status do seu pedido é ");
-					IChatInteligente objChat = (IChatInteligente) Naming.lookup("rmi://localhost:8282/chat");					
-					Message msg = new Message(nome, msgp);
-					objChat.sendMessage(msg);
-					System.out.println(returnMessage(objChat.retrieveMessage()));
-					}
-						
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		} catch (RemoteException e) {
-			e.printStackTrace();			
-		} catch (NotBoundException e) {
-			e.printStackTrace();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-			
+		msgp = JOptionPane.showInputDialog("O que deseja saber?");
+		if(msgp.contains("pedido")) {
+			if(JOptionPane.showConfirmDialog(null, "O número do pedido:", "Pedido",  JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){
+
+                objs = pedido.buscar(pedido);
+
+                for (Pedido obj : objs){
+                    JOptionPane.showConfirmDialog(null, obj.getDescricao(), "Pedido", JOptionPane.OK_OPTION);
+                }
+
+		} else if (JOptionPane.showConfirmDialog(null, "Saber o status do pedido?", "Pedido",
+                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){
+            dados = pedido.buscar(pedido);
+
+            for (Pedido obj : objs){
+                JOptionPane.showConfirmDialog(null, obj.getStatus(), "Pedido", JOptionPane.OK_OPTION);
+            }
+        } else if(msgp.contains("numero")){
+            if(JOptionPane.showConfirmDialog(null, "Seja saber o número da nota fiscal?", "Nota fiscal",
+                    JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){
+
+                objs = pedido.buscar(pedido);
+
+                for (Pedido obj : objs){
+                    JOptionPane.showConfirmDialog(null, obj.getNumPedido(), "Pedido", JOptionPane.OK_OPTION);
+                }
+            }
+        }
 	}
 		
 	private	static String returnMessage(List<Message> lst) {
