@@ -14,11 +14,11 @@ public class MainAplication {
 		
 		try {
 			ConnectionSQLite conexao = new ConnectionSQLite();
-			Livro livro = new Livro(3, "livro 3", "teste", "10/10/2010", 300, "acao");
-			Livraria livraria = new Livraria(2, livro);
+			Livro livro = new Livro(4, "livro 3", "teste", "10/10/2010", 300, "acao");
+			Livraria livraria = new Livraria(3, livro);
 			
 //			inserirLivro(livro, conexao);
-			consultarLivro(conexao);
+//			consultarLivro(conexao);
 			
 //			inserirLivraria(livraria, conexao);
 			consultarLivraria(conexao);

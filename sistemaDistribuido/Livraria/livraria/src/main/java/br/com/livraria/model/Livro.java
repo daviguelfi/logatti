@@ -55,5 +55,14 @@ public class Livro {
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
+
+	@Override
+	public String toString() {
+		return "Isbn: " + this.getIsbn() + "\nTitulo: " + this.getTitulo() +
+				"\nAutor: " + this.getAutor() + "\nAno de lançamento: " + this.getAnoLancamento() +
+				"\nQuantidade de páginas: " + this.getQtdPaginas() + "\nGenero: " + this.getGenero();
+	}
+	
+	
 		
 }
