@@ -1,0 +1,22 @@
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+
+public class ChatServer {
+
+	public ChatServer() throws RemoteException {
+		
+		try {
+			System.out.println("começou");
+			LocateRegistry.createRegistry(8282);
+			Naming.rebind("rmi://localhost:8282/chat", new ChatInteligente());
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) throws RemoteException {
+		new ChatServer();
+	}
+}
