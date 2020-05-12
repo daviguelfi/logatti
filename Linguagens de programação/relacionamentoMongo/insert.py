@@ -8,6 +8,8 @@ mycol = mydb["relacionamento"]
 client = Client(1, 'davi', '123456789', 'av 22 de agosto',  'aqa', 'sp', 
 '10/12/1999')
 
+client = Client(str(input()))
+
 employe = Employe(1, 'felipe', '123456789', 'av 22 de agosto', 
 'aqa', 'sp', '10/12/1995', '1000')
 
