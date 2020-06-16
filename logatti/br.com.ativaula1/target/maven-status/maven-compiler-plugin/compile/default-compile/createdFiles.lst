@@ -1,0 +1,7 @@
+br/com/ativaula1/service/ClienteService.class
+br/com/ativaula1/constants/Constants.class
+br/com/ativaula1/controller/ClienteController.class
+br/com/ativaula1/config/SwaggerConfig.class
+br/com/ativaula1/model/Cliente.class
+br/com/ativaula1/repository/ClienteRepository.class
+br/com/ativaula1/MyApplication.class

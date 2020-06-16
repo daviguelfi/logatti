@@ -16,7 +16,7 @@ public class ClienteController {
     private ClienteService clienteService;
 
     @PostMapping(Constants.API_CLIENTE)
-    public  Cliente save(@RequestBody Cliente cliente) {
+    public Cliente save(@RequestBody Cliente cliente) {
         return  clienteService.save(cliente);
     }
 

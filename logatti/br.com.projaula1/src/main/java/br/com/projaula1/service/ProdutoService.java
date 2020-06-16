@@ -15,8 +15,7 @@ public class ProdutoService {
     private ProdutoRepository produtoRepository;
 
     public Produto save(Produto produto){
-        produtoRepository.save(produto);
-        return produto;
+       return produtoRepository.save(produto);
     }
     public List<Produto> findAll(){
         return produtoRepository.findAll();
@@ -26,9 +25,5 @@ public class ProdutoService {
     }
     public void delete(int id){
         produtoRepository.deleteById(id);
-    }
-
-    public void deleteAll(){
-        produtoRepository.deleteAll();
     }
 }

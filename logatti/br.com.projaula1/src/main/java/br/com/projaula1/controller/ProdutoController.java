@@ -37,6 +37,6 @@ public class ProdutoController {
 
     @GetMapping(Constants.API_PRODUTO + "/{id}")
     public Optional<Produto> findById(@PathVariable("id") int id) {
-        return  produtoService.findById(Integer.parseInt(String.valueOf(id)));
+        return  produtoService.findById(id);
     }
 }

@@ -7,9 +7,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Cliente {
 
-    private  int id;
+    @Id
+    private int id;
     private String nome;
     private String telefone;
+
 
     public int getId() {
         return id;

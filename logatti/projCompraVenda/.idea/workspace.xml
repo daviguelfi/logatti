@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdb8b216-06ef-48b7-93d5-da0370110fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../brcomprojaula1/.idea/brcomprojaula1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../brcomprojaula1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../brcomprojaula1/brcomprojaula1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/clientes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/java/br/com/cliente/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientes/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projCompraVenda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/controller/ComprasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/controller/FornecedorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/controller/ProdutosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/controller/VendasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/model/Compras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/model/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/model/Produtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/model/Vendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/repository/ComprasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/repository/FornecedorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/repository/ProdutosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/repository/VendasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/service/ComprasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/service/FornecedorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/service/ProdutosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/compravenda/service/VendasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/src/main/java/br/com/ativaula1/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/repository/ClienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/repository/ClienteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/service/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.ativaula1/target/classes/br/com/ativaula1/service/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/repository/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/src/main/java/br/com/projaula1/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/controller/ProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/repository/ProdutoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/repository/ProdutoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/service/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../br.com.projaula1/target/classes/br/com/projaula1/service/ProdutoService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dPah7f0pT5JcdnKqyOHwiuVY93" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.compravenda.MyApplication" />
+      <module name="projCompraVenda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.compravenda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdb8b216-06ef-48b7-93d5-da0370110fe7" name="Default Changelist" comment="" />
+      <created>1592329297950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592329297950</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="886" y="107" width="1024" height="845" key="#Project_Structure" timestamp="1592329410467">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state x="886" y="107" width="1024" height="845" key="#Project_Structure/0.27.1920.1008@0.27.1920.1008" timestamp="1592329410467" />
+    <state x="768" y="217" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1592333506449">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state x="768" y="217" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1008@0.27.1920.1008" timestamp="1592333506449" />
+    <state x="693" y="278" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592331901397">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state x="693" y="278" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1008@0.27.1920.1008" timestamp="1592331901397" />
+    <state width="1874" height="252" key="GridCell.Tab.0.bottom" timestamp="1592333237828">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state width="1874" height="252" key="GridCell.Tab.0.bottom/0.27.1920.1008@0.27.1920.1008" timestamp="1592333237828" />
+    <state width="1874" height="252" key="GridCell.Tab.0.center" timestamp="1592333237828">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state width="1874" height="252" key="GridCell.Tab.0.center/0.27.1920.1008@0.27.1920.1008" timestamp="1592333237828" />
+    <state width="1874" height="252" key="GridCell.Tab.0.left" timestamp="1592333237828">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state width="1874" height="252" key="GridCell.Tab.0.left/0.27.1920.1008@0.27.1920.1008" timestamp="1592333237828" />
+    <state width="1874" height="252" key="GridCell.Tab.0.right" timestamp="1592333237828">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state width="1874" height="252" key="GridCell.Tab.0.right/0.27.1920.1008@0.27.1920.1008" timestamp="1592333237828" />
+    <state x="624" y="242" key="run.anything.popup" timestamp="1592333596578">
+      <screen x="0" y="27" width="1920" height="1008" />
+    </state>
+    <state x="624" y="242" key="run.anything.popup/0.27.1920.1008@0.27.1920.1008" timestamp="1592333596578" />
+  </component>
+</project>
