@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <ul>
+        {% for venda in vendas %}
+            <a href="{% url 'update_venda' venda.id %}">
+                <li> Venda id {{ venda.id }} - dia {{ venda.data }} - descricao {{venda.descricao}} | Funcionário - {{venda.funcionario}}</li>
+            </a>
+        {% endfor %}
+    </ul>
+
+    <a class="btn btn-primary" href="{% url 'create_venda' %}">Novo</a>
+{% endblock %}
