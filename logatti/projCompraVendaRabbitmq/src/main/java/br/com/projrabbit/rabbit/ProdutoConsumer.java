@@ -13,7 +13,7 @@ public class ProdutoConsumer {
     @Autowired
     private ProdutosService produtosService;
 
-    @RabbitListener(queues = {"${queue.produtos.name}"})
+    @RabbitListener(queues = {"${queue.produto.name}"})
     public void receive(@Payload Produtos produtos) {
         System.out.println("Id: " + produtos.getId() + "\nNome: " + produtos.getNome());
         produtosService.save(produtos);
