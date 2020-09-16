@@ -25,7 +25,7 @@ public class FuncionarioTest {
 
     @Test
     public void save() throws Exception {
-        long qtd = 20000;
+        long qtd = 200;
 
         funcionarioService.deleteAll();
 

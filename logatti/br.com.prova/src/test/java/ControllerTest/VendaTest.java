@@ -22,7 +22,7 @@ public class VendaTest {
 
     @Test
     public void save() throws Exception {
-        long qtd = 20000;
+        long qtd = 200;
 
         vendaService.deleteAll();
 
@@ -30,7 +30,7 @@ public class VendaTest {
             vendaService.sendClienteRabbit(new Venda("venda"+i));
         }
 
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         List<Venda> lst = vendaService.findAll();
         System.out.println("Qtd:" + lst.size());
         Assert.assertEquals(lst.size(), qtd);
